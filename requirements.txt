@@ -1,0 +1,10 @@
+apps==0.0.0.0.dev20200918
+imbalanced_learn==0.8.0
+imblearn==0.0
+matplotlib==3.2.2
+numpy==1.22.4
+pandas==1.0.5
+scikit_learn==1.1.1
+seaborn==0.10.1
+streamlit==1.0.0
+~umpy==1.18.5
