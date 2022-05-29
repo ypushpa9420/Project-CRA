@@ -7,7 +7,7 @@ Created on Mon Dec 13 22:00:42 2021
 import streamlit as st
 
 from multiapp1 import MultiApp
-from apps import single_prediction,multiple_prediction,eda_vda,intro
+from apps import singleprediction,multipleprediction,edavda,intro
 
 app = MultiApp()
 
@@ -43,9 +43,9 @@ st.markdown("""
 
 # Add all your application here
 app.add_app("OVERVIEW", intro.app)
-app.add_app("EDA AND VDA",eda_vda.app)
-app.add_app("SINGLE PREDICTION",single_prediction.app)
-app.add_app("BULK PREDICTION",multiple_prediction.app)
+app.add_app("EDA AND VDA",edavda.app)
+app.add_app("SINGLE PREDICTION",singleprediction.app)
+app.add_app("BULK PREDICTION",multipleprediction.app)
 
 #app.add_app("MODEL", model.app)
 # The main app
