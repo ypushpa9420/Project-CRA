@@ -6,7 +6,7 @@ Created on Mon Dec 13 22:00:42 2021
 """
 import streamlit as st
 
-from multiapp import MultiApp
+from multiapp1 import MultiApp
 from apps import single_prediction,multiple_prediction,eda_vda,intro
 
 app = MultiApp()
