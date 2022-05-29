@@ -1,2 +1,0 @@
-heroku create --stack heroku-18
-Python 3.8.3
