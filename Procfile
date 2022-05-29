@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run CRAfile.py
+web: sh setup.sh && streamlit run mainwebapp.py
