@@ -27,3 +27,8 @@ def app():
    st.write("Loan to income ratio - numerical variable; between 0 and 1")
    st.write("Historical default - binary, categorical variable; Y or N")
    st.write("Loan status - binary, numerical variable; 0 (no default) or 1 (default) - this is going to be our target variable)")
+   st.header("How to use this tool")
+   st.write("1.	Choose Single prediction or Bulk prediction from dropdown")
+   st.write("2.	For single prediction fill the customer’s data and click on “Submit” button from left panel and see the result in right panel of this tool")
+   st.write("3.	For multiple prediction, upload bulk data of customers and click on “Process” button from left panel and see the result in right panel of this tool")
+
