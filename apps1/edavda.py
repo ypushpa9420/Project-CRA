@@ -19,7 +19,7 @@ def app():
     df= pd.read_pickle("./finaldataframe.pkl")
     #df1= pd.read_pickle("./finaldataframe.pkl")
     dfo = pd.read_csv('./credit_risk_dataset.csv')
-    st.subheader('**Below is the structure of original dataset**')
+    st.subheader('**Below is the structure of dataset**')
     oBuffer = io.StringIO()
     dfo.info(buf=oBuffer)
     vBuffer = oBuffer.getvalue()
@@ -27,7 +27,7 @@ def app():
     #st.write(df.columns)
             
     # columns
-    st.subheader('**Below is the columns of original dataset**')
+    st.subheader('**Below is the columns of dataset**')
     st.text(dfo.columns)    
     
     df['person_home_ownership']=df['person_home_ownership'].map({0:'MORTGAGE',1:'OTHER',2:'OWN',3:'RENT'})
