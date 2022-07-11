@@ -13,7 +13,6 @@ def app():
     
    st.header("**Introduction**")
    st.write("Credit default risk is simply known as the possibility of a loss for a lender due to a borrower’s failure to repay a loan. Credit analysts are typically responsible for assessing this risk by thoroughly analyzing a borrower’s capability to repay a loan — but long gone are the days of credit analysts, it’s the machine learning age! Machine learning algorithms have a lot to offer to the world of credit risk assessment due to their unparalleled predictive power and speed. In this article, we will be utilizing machine learning’s power to predict whether a borrower will default on a loan or not and to predict their probability of default. Let’s get started.")
-   st.header("**Dataset**")
    st.header("How to use this tool")
    st.write("1.	Choose Single prediction or Bulk prediction from dropdown")
    st.write("2.	For single prediction fill the customer’s data and click on “Submit” button from left panel and see the result in right panel of this tool")
