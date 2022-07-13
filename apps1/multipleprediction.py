@@ -134,9 +134,9 @@ def app():
     
     vFileDets = st.sidebar.file_uploader("Upload Files",type=['csv'])
     if vFileDets is None:
-            st.header("Thanks for using this tool.")
+            st.header("Thanks for using this tool. Follow below steps to proceed.")
             st.write("1. Please upload file and start your analysis")
-            st.write("2. Choose different option to see differents cuts of data")
+            st.write("2. Choose different option to see different cuts of data")
             
     if vFileDets is not None:
             vFileData = {"FileName":vFileDets.name,"FileType":vFileDets.type,"FileSize":vFileDets.size}
