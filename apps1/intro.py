@@ -19,7 +19,7 @@ def app():
    st.write("3.	For multiple prediction, upload bulk data of customers from left panel and see the result in right panel of this tool")
    st.header("Benefit of using this tool")
    st.write("1.	This tool help to predict loan defaulter based on data present to banks/finance company")
-   st.write("2.	Apart from future prediction this tool is capable of giving analysis of data of customer who have applied for loan like number of customer apply for loan, which customer is defaulter which one is not, what kind of loan required and what amount of load is required etc.")
+   st.write("2.	Apart from future prediction this tool is capable of giving analysis of data of customer who have applied for loan like number of customer apply for loan, which customer is defaulter which one is not, what kind of loan required and what amount of loan is required etc.")
    st.write("3. This tool help company to identify customer whom they can provide loan, amount of loan and type of loan")
 
     
