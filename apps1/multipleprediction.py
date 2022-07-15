@@ -218,7 +218,8 @@ def app():
                 st.dataframe(pivot1)
                 st.subheader("Predicated data for each customer")
                 st.dataframe(dfp)
-                
+                csv = convert_df(dfp)
+                st.download_button(label="Download Predicated data for each customer",data=csv,file_name='dfp.csv',mime='text/csv')
                 st.header("Graph")
                 fig = plt.figure(figsize=(20, 10))
                 sns.countplot(x='person_age', hue='loan status', data=dfp)
